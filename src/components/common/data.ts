@@ -74,10 +74,13 @@ export const experience = {
       years: "Apr 2021 - present",
       expYears: "2.5 years",
       description: [
-        "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
-        "Keep the code quality high reviewing code from other developers and suggesting improvements",
-        "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        // "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "<strong>Westpac Institutional Banking Project: </strong> <ul><li><i>As a part of the CI team, </i> I had to maintain the test cases for the sprint user stories at WIB test plans</li></ul>",
+        "<strong>Parsifal Project: </strong> <ul><li><i>10X</i> is a Banking as a Service Provider</i></li><li><i>As a part of the API testing team, </i> I had to check if all the API end points are working properly after a major/minor update</li></ul>",
+
       ],
     },
     // {
@@ -97,7 +100,7 @@ export const experience = {
 };
 
 export const projects = {
-  title: "Projects",
+  title: "Mini Projects",
   companies: [
     {
       name: "Hardware Hub",
@@ -105,10 +108,54 @@ export const projects = {
       years: `<a href="https://hardwarehub.netlify.app/" target="_blank">Live Project</a>`,
       expYears: `<a href="https://github.com/Chaitanya7666/commercejs-react-project" target="_blank">Source Code</a>`,
       description: [
-        "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
-        "Keep the code quality high reviewing code from other developers and suggesting improvements",
-        "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        // "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "This project is built using ReactJS and CommerceJS which is a complete backend solution for building an EComemrce Website. I have used Stripe's API for payments.",
+        "Few components are reused from the <i>Stripe Elements</i> API"
+      ],
+    },
+    {
+      name: "Feedio",
+      role: "Social Media application",
+      years: `<a href="https://feedio.netlify.app/" target="_blank">Live Project</a>`,
+      expYears: `<a href="https://github.com/Chaitanya7666/feedio-react-materialui" target="_blank">Source Code</a>`,
+      description: [
+        // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        // "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "This social media application uses ReactJS, for the frontend and firebase firestore & firestorage on the back.",
+        "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
+      ],
+    },
+    {
+      name: "Hippo Wire",
+      role: "Realtime Messaging application",
+      years: `<a href="https://hippowire.netlify.app/" target="_blank">Live Project</a>`,
+      expYears: `<a href="https://github.com/Chaitanya7666/chat-app-react" target="_blank">Source Code</a>`,
+      description: [
+        // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        // "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "This real time chat application uses ReactJS, for the frontend and the real-time features of the firestore to support it's core functionality",
+        // "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
+      ],
+    },
+    {
+      name: "RGB Videos",
+      role: "Video Library Application",
+      years: `<a href="https://rgbvideos.netlify.app/" target="_blank">Live Project</a>`,
+      expYears: `<a href="https://github.com/Chaitanya7666/youtube-api-react-app" target="_blank">Source Code</a>`,
+      description: [
+        // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        // "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "This ReactJS app leverages the Youtube v3 data api for the content",
+        // "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
       ],
     },
    
