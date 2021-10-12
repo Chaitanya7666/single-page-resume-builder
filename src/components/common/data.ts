@@ -16,12 +16,12 @@ export const intro = {
     "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
   about: {
     title: "About me",
-    description: `I have 2 years of work experience as a QA Tester. I started learning Web development out of curiosity. Now I want to pursue my career in this field. I am looking for Web developer roles and have knowledge in both frontend and backend development. I design and develop web applications using the latest technologies.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
+    description: `I have 2 years of work experience as a QA Tester. I started learning Web development out of curiosity. Now I want to pursue my career in this field. I am looking for Web developer roles and have good knowledge in front-end and exposure to back-end development. I design and develop web applications using the latest technologies.\nI am very good at UI fundamentals & Technologies and can learn most of the front-end frameworks quickly as I have sound knowledge of JavaScript.`,
   },
   objective: {
     title: "Career Objective",
     description:
-      "I want to explore the world of Web development and advance further by constantly improving my skills to master the creation of the most commonly seen 2D Web Apps and then move on to highly interactive and responsive 3D Web applications.",
+      "I want to explore various Web development technologies and advance further in this field by constantly improving my skills to be able to build the most commonly seen 2D Web Apps and then move on to highly interactive and responsive 3D Web applications.",
   },
 };
 
@@ -86,8 +86,8 @@ export const experience = {
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "<strong>Westpac Institutional Banking Project: </strong> <ul><li><i>As a part of the CI team, </i> I had to maintain the test cases for the sprint user stories at WIB test plans</li><li>Involving in Story shaping sessions, Sprint Planning, Daily Scrum calls, Sprint Review meetings and Retrospection.</li><li>Designing the Test Scenarios, Test Cases and Test Data for the sprint user stories.</li></ul>",
-        "<strong>Parsifal Project: </strong> <ul><li><i>10X</i> is a Banking as a Service Provider and it provides it's service to few other banks which operate with the Westpac Banking license.</i></li><li><i>As a part of the API testing team, </i> I had to check if all the API end points are working properly after a major/minor update.</li></ul>",
+        "<strong>Westpac Institutional Banking Project: </strong> <ul><li><i>As a part of the CI team, </i> I had to maintain the test cases for the sprint user stories at WIB test plans</li><li>Involved in Story shaping sessions, Sprint Planning, Daily Scrum calls, Sprint Review meetings and Retrospection.</li><li>Designed the Test Scenarios, Test Cases and Test Data for the sprint user stories.</li></ul>",
+        "<strong>Parsifal Project: </strong> <ul><li><i>10X</i> is a Banking as a Service Provider and it provides it's service to few other banks which operate with the Westpac Banking license.</i></li><li><i>As a part of the API testing team, </i> I had to check if all the API end points are working properly after a major/minor update or whenever required.</li></ul>",
 
       ],
     },
@@ -120,9 +120,10 @@ export const projects = {
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "This project is built using ReactJS and CommerceJS which is a complete backend solution for building an EComemrce Website. I have used Stripe's API for payments.",
-        "Few components are reused from the <i>Stripe Elements</i> API",
-        "CommerceJS is a complete backend solution for developing E-Commerce Apps"
+        "This project is built using ReactJS, Firebase and CommerceJS.",
+        "I have used Stripe's API for payments.",
+        "Few components are leveraged from the <i>Stripe Elements</i> API.",
+        "CommerceJS is a complete backend solution for developing E-Commerce Applications."
 
 
       ],
@@ -137,8 +138,8 @@ export const projects = {
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "This social media application uses ReactJS, for the frontend and firebase firestore & firestorage on the back.",
-        "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
+        "This social media application uses ReactJS for the frontend and Firebase Firestore & Firestorage on the back.",
+        "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic."
       ],
     },
     {
@@ -151,7 +152,7 @@ export const projects = {
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "This real time chat application uses ReactJS, for the frontend and the real-time features of the firestore to support it's core functionality",
+        "This real time chat application uses ReactJS for the frontend and the real-time features of the firestore to support it's core functionality.",
         // "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
       ],
     },
@@ -165,7 +166,7 @@ export const projects = {
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "This ReactJS app leverages the Youtube v3 data api for the content",
+        "This ReactJS app leverages the Youtube v3 data API for the content",
         // "Optimistic-UI, Every Promise is accompanied by an Error handler to make the application Optimistic"
       ],
     },
