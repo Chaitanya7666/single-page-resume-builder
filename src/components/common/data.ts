@@ -1,22 +1,22 @@
 export const intro = {
-  name: "Jane Doe",
+  name: "Chaitanya J",
   role: "Frontend Developer",
-  mobile: "+91 9876543210",
-  email: "johndoe@email.com",
-  location: "Bengaluru",
+  mobile: "+91 9360297873",
+  email: "chaitu.y25@gmail.com",
+  location: "Hyderabad",
   experience: [
-    { type: "Frontend experience", years: "4 years" },
-    { type: "Total Experience", years: "6 years" },
+    { type: "Frontend experience", years: "0 years" },
+    { type: "Total Experience", years: "2 years" },
   ],
   social: [
-    ["linkedin", "https://www.linkedin.com/in/sadanandpai/"],
-    ["github", "https://github.com/sadanandpai/"],
+    ["linkedin", "https://www.linkedin.com/in/chaitanya-j-1799791b4/"],
+    ["github", "https://github.com/Chaitanya7666"],
   ],
   photo:
     "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
   about: {
     title: "About me",
-    description: `I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
+    description: `I have 2 years of work experience as a QA Tester. I started learning Web development out of curiosity. Now I want to pursue my career in this field. I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
   },
   objective: {
     title: "Career Objective",
@@ -69,8 +69,8 @@ export const experience = {
   title: "Experience",
   companies: [
     {
-      name: "Comapny 1",
-      role: "Senior Software Developer",
+      name: "Infosys",
+      role: "Systems Engineer",
       years: "Apr 2021 - present",
       expYears: "2.5 years",
       description: [
@@ -80,32 +80,39 @@ export const experience = {
         "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
       ],
     },
+    // {
+    //   name: "Comapny 2",
+    //   role: "Software Developer",
+    //   years: "Jun 2015 - Dec 2017",
+    //   expYears: "2.5 years",
+    //   description: [
+    //     "Develop web applications based on Sharepoint, Drupal 8 and Episerver",
+    //     "Lead a team of <strong>10 front end developers</strong>, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions",
+    //     "Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team",
+    //     "Keep the code and the features implemented by the other developers in accordance to the requirements",
+    //   ],
+    // },
+    
+  ],
+};
+
+export const projects = {
+  title: "Projects",
+  companies: [
     {
-      name: "Comapny 2",
-      role: "Software Developer",
-      years: "Jun 2015 - Dec 2017",
-      expYears: "2.5 years",
+      name: "Hardware Hub",
+      role: "E-commerce application",
+      years: `<a href="https://hardwarehub.netlify.app/" target="_blank">Live Project</a>`,
+      expYears: `<a href="https://github.com/Chaitanya7666/commercejs-react-project" target="_blank">Source Code</a>`,
       description: [
-        "Develop web applications based on Sharepoint, Drupal 8 and Episerver",
-        "Lead a team of <strong>10 front end developers</strong>, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions",
-        "Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team",
-        "Keep the code and the features implemented by the other developers in accordance to the requirements",
-      ],
-    },
-    {
-      name: "Comapny 3",
-      role: "Trainee Developer",
-      years: "Aug 2011 - May 2015",
-      expYears: "1 year",
-      description: [
-        "Design easy user interfaces and great user experiences for the digital platforms of small companies",
-        "Wordpress development, including themes creation or customization, custom plugins development and training",
+        "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        "Keep the code quality high reviewing code from other developers and suggesting improvements",
+        "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "E-commerce development with Magento, customizing preexisting themes ",
-        "Integrate external services such as payment services, delivery, etc into Magento solutions",
-        "VPS configuration and optimization (Apache & Nginx)",
       ],
     },
+   
+    
   ],
 };
 
@@ -136,11 +143,11 @@ export const education = {
   title: "Education",
   items: [
     {
-      institution: "XIV, University",
-      years: "2010 - 2014",
-      grade: "8.3 CGPA",
-      degree: "B.Tech",
-      specialization: "Masters in Cloud Technology",
+      institution: "TJS Engineering College",
+      years: "2015 - 2019",
+      grade: "7.01 CGPA",
+      degree: "B.E.",
+      specialization: "Electrical and Electronics",
     },
   ],
 };

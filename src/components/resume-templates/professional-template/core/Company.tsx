@@ -24,11 +24,11 @@ export function CompanyHeader(props: any) {
     <>
       <Flex jc="space-between" ai="flex-end" style={{ lineHeight: "initial" }}>
         <CompanyName>{props.company.name}</CompanyName>
-        <CompanyExp>{props.company.years}</CompanyExp>
+        <CompanyExp dangerouslySetInnerHTML={{ __html: props.company.years }}></CompanyExp>
       </Flex>
       <Flex jc="space-between" ai="flex-end">
         <CompanyRole>{props.company.role}</CompanyRole>
-        <CompanyExp>{props.company.expYears}</CompanyExp>
+        <CompanyExp dangerouslySetInnerHTML={{ __html: props.company.expYears }}></CompanyExp>
       </Flex>
     </>
   );

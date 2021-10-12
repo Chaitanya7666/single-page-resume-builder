@@ -82,6 +82,12 @@ export function LegacyTemplate() {
         />
         <Exp companies={experience?.companies} />
         <Separator />
+
+
+     
+
+
+
         <SectionHeader
           Icon={getIcon(keyProjects?.title)}
           title={keyProjects?.title}

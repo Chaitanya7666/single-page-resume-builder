@@ -5,6 +5,7 @@ import {
   skills,
   achievements,
   education,
+  projects
 } from "../common/data";
 
 export const useIntro = create(() => ({
@@ -13,6 +14,11 @@ export const useIntro = create(() => ({
 
 export const useExp = create(() => ({
   experience,
+}));
+
+
+export const useProjects = create(() => ({
+  projects,
 }));
 
 export const useAchievements = create(() => ({

@@ -18,6 +18,7 @@ import {
   useSkills,
   useAchievements,
   useEducation,
+  useProjects
 } from "../../stores/data.store";
 
 const LeftSection = styled(FlexCol)`
@@ -36,6 +37,8 @@ const RightSection = styled(FlexCol)`
 export function ProfessionalTemplate() {
   const intro = useIntro((state: any) => state.intro);
   const education = useEducation((state: any) => state.education);
+  const projects = useProjects((state: any) => state.projects);
+
   const experience = useExp((state: any) => state.experience);
   const achievements = useAchievements(
     (state: any) => [state.keyProjects, state.certificates],
@@ -54,10 +57,16 @@ export function ProfessionalTemplate() {
   );
   
   const leftSections = [
+    
     {
       title: experience?.title,
       component: <Exp companies={experience?.companies} />,
-      styles: { flexGrow: 1 },
+      // styles: { flexGrow: 1 },
+    },
+    {
+      title: projects?.title,
+      component: <Exp companies={projects?.companies} />,
+      // styles: { flexGrow: 1 },
     },
     {
       title: keyProjects?.title,
