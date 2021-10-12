@@ -61,16 +61,20 @@ export function ProfessionalTemplate() {
     {
       title: experience?.title,
       component: <Exp companies={experience?.companies} />,
-      // styles: { flexGrow: 1 },
+      styles: { flexGrow: 1 },
     },
     {
       title: projects?.title,
       component: <Exp companies={projects?.companies} />,
-      // styles: { flexGrow: 1 },
+      styles: { flexGrow: 1 },
     },
     {
       title: keyProjects?.title,
       component: <ListSection items={keyProjects?.items} />,
+    },
+    {
+      title: education?.title,
+      component: <EduSection items={education?.items} />,
     },
     {
       title: certificates?.title,
@@ -102,10 +106,10 @@ export function ProfessionalTemplate() {
       component: <UnratedSection items={methodology?.items} />,
     },
     { title: tools?.title, component: <UnratedSection items={tools?.items} /> },
-    {
-      title: education?.title,
-      component: <EduSection items={education?.items} />,
-    },
+    // {
+    //   title: education?.title,
+    //   component: <EduSection items={education?.items} />,
+    // },
   ];
 
   return (

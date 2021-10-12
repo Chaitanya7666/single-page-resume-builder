@@ -21,6 +21,7 @@ import {
   useSkills,
   useAchievements,
   useEducation,
+  useProjects
 } from "../../stores/data.store";
 
 const GridContainer = styled.div`
@@ -55,6 +56,7 @@ export function LegacyTemplate() {
   const intro = useIntro((state: any) => state.intro);
   const education = useEducation((state: any) => state.education);
   const experience = useExp((state: any) => state.experience);
+  const projects = useProjects((state: any) => state.experience);
   const [keyProjects, certificates] = useAchievements(
     (state: any) => [state.keyProjects, state.certificates],
     shallow
@@ -83,7 +85,11 @@ export function LegacyTemplate() {
         <Exp companies={experience?.companies} />
         <Separator />
 
-
+        <SectionHeader
+          Icon={getIcon(experience?.title)}
+          title={experience?.title}
+        />
+        <Exp companies={projects?.companies} />
      
 
 

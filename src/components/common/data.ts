@@ -16,12 +16,12 @@ export const intro = {
     "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
   about: {
     title: "About me",
-    description: `I have 2 years of work experience as a QA Tester. I started learning Web development out of curiosity. Now I want to pursue my career in this field. I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
+    description: `I have 2 years of work experience as a QA Tester. I started learning Web development out of curiosity. Now I want to pursue my career in this field. I am looking for Web developer roles and have knowledge in both frontend and backend development. I design and develop web applications using the latest technologies.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
   },
   objective: {
     title: "Career Objective",
     description:
-      "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+      "I want to explore the world of Web development and advance further by constantly improving my skills to master the creation of the most commonly seen 2D Web Apps and then move on to highly interactive and responsive 3D Web applications.",
   },
 };
 
@@ -33,7 +33,7 @@ export const skills = {
       { name: "HTML5", rating: 5 },
       { name: "CSS", rating: 5 },
       { name: "React", rating: 4 },
-      { name: "Angular", rating: 4 },
+      { name: "C", rating: 3 },
     ],
   },
   exposure: {
@@ -43,9 +43,17 @@ export const skills = {
       "Data Structures",
       "SQL",
       "Progressive Web Apps",
-      "jQuery",
+      // "jQuery",
       "Redux",
       "Firebase",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "Shell scripting",
+      "NodeJS",
+      "React Context API",
+      "Material-UI",
+      // "Material design"
     ],
   },
   methodology: {
@@ -53,15 +61,15 @@ export const skills = {
     items: [
       "Component based architecture",
       "Agile methodology",
-      "Design Patterns",
-      "Test Driven Development",
+      // "Design Patterns",
+      // "Test Driven Development",
       "MVC",
       "RESTful architecture",
     ],
   },
   tools: {
     title: "Tools",
-    items: ["Git", "VS Code", "Jira", "Webpack", "Eclipse", "Bitbucket"],
+    items: ["Git", "VS Code", "Webpack"],
   },
 };
 
@@ -71,15 +79,15 @@ export const experience = {
     {
       name: "Infosys",
       role: "Systems Engineer",
-      years: "Apr 2021 - present",
-      expYears: "2.5 years",
+      years: "Nov 2019 - present",
+      expYears: "2 years",
       description: [
         // "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
         // "Keep the code quality high reviewing code from other developers and suggesting improvements",
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "<strong>Westpac Institutional Banking Project: </strong> <ul><li><i>As a part of the CI team, </i> I had to maintain the test cases for the sprint user stories at WIB test plans</li></ul>",
-        "<strong>Parsifal Project: </strong> <ul><li><i>10X</i> is a Banking as a Service Provider</i></li><li><i>As a part of the API testing team, </i> I had to check if all the API end points are working properly after a major/minor update</li></ul>",
+        "<strong>Westpac Institutional Banking Project: </strong> <ul><li><i>As a part of the CI team, </i> I had to maintain the test cases for the sprint user stories at WIB test plans</li><li>Involving in Story shaping sessions, Sprint Planning, Daily Scrum calls, Sprint Review meetings and Retrospection.</li><li>Designing the Test Scenarios, Test Cases and Test Data for the sprint user stories.</li></ul>",
+        "<strong>Parsifal Project: </strong> <ul><li><i>10X</i> is a Banking as a Service Provider and it provides it's service to few other banks which operate with the Westpac Banking license.</i></li><li><i>As a part of the API testing team, </i> I had to check if all the API end points are working properly after a major/minor update.</li></ul>",
 
       ],
     },
@@ -113,7 +121,10 @@ export const projects = {
         // "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
         // "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
         "This project is built using ReactJS and CommerceJS which is a complete backend solution for building an EComemrce Website. I have used Stripe's API for payments.",
-        "Few components are reused from the <i>Stripe Elements</i> API"
+        "Few components are reused from the <i>Stripe Elements</i> API",
+        "CommerceJS is a complete backend solution for developing E-Commerce Apps"
+
+
       ],
     },
     {
@@ -165,23 +176,29 @@ export const projects = {
 
 export const achievements = {
   keyProjects: {
-    title: "Key Projects / Involvements",
+    // title: "Key Projects / Involvements",
     items: [
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
-      "Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.",
-      "Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.",
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+      // "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+      // "Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.",
+      // "Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.",
+      // "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
     ],
   },
   certificates: {
-    title: "Certificates and Awards",
+    title: "Course work",
     items: [
-      "<strong>React</strong> and redux - A complete guide 2020 from Udemy",
-      "Agile and Scrum Master Certificate from Udacity",
-      "Best performer award for consistently exceeding the performance",
-      "Certificate of exceptional bug finder by XYZ client",
-      "Recorgnition zero defect delivery",
-      "Best performer award for consistently exceeding the performance",
+      "<strong>React</strong> and redux from Udemy",
+      "<strong>Docker And Kubernetes</strong> from Udemy",
+      "<strong>JavaScript</strong> from Udemy",
+      // "<strong></strong> and redux - A complete guide 2020 from Udemy",
+      // "<strong>React</strong> and redux - A complete guide 2020 from Udemy",
+
+      // "Agile and Scrum Master Certificate from Udacity",
+      // "Best performer award for consistently exceeding the performance",
+      // "Certificate of exceptional bug finder by XYZ client",
+      // "Recorgnition zero defect delivery",
+      // "Best performer award for consistently exceeding the performance",
+
     ],
   },
 };
