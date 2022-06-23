@@ -22,8 +22,9 @@ export function Description({ description, photo }: any) {
 
   return (
     <>
-      {image}
-      {description}
+      {/* {image} */}
+      <p  dangerouslySetInnerHTML={{ __html: description }}></p>
+      {/* {description} */}
     </>
   );
 }

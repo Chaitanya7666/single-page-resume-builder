@@ -72,14 +72,14 @@ export function ProfessionalTemplate() {
       title: keyProjects?.title,
       component: <ListSection items={keyProjects?.items} />,
     },
-    {
-      title: education?.title,
-      component: <EduSection items={education?.items} />,
-    },
-    {
+    // {
+    //   title: education?.title,
+    //   component: <EduSection items={education?.items} />,
+    // },
+    /* {
       title: certificates?.title,
       component: <ListSection items={certificates?.items} />,
-    },
+    }, */
   ];
   
   const rightSections = [
@@ -92,14 +92,14 @@ export function ProfessionalTemplate() {
         />
       ),
     },
-    {
-      title: intro.objective?.title,
-      component: <Description description={intro.objective?.description} />,
-    },
-    {
-      title: technical?.title,
-      component: <RatedSection items={technical?.items} />,
-    },
+    // {
+    //   title: intro.objective?.title,
+    //   component: <Description description={intro.objective?.description} />,
+    // },
+    // {
+    //   title: technical?.title,
+    //   component: <RatedSection items={technical?.items} />,
+    // },
     { title: exposure?.title, component: <UnratedSection items={exposure?.items} /> },
     {
       title: methodology?.title,
@@ -110,6 +110,10 @@ export function ProfessionalTemplate() {
     //   title: education?.title,
     //   component: <EduSection items={education?.items} />,
     // },
+    {
+      title: education?.title,
+      component: <EduSection items={education?.items} />,
+    },
   ];
 
   return (
